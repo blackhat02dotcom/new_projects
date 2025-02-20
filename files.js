@@ -10,6 +10,8 @@ const bodyParser = require('body-parser');
 const app = express();
 const PORT = 5000;
 
+ // my new project
+
 
 app.use(cors({
     origin: 'http://127.0.0.1:5500', // Update this if your Live Server runs on a different port
