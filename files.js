@@ -20,6 +20,8 @@ app.use(cors({
 app.use(cors());
 app.use(bodyParser.json());
 
+// my new projct
+
 // Connect to MongoDB
 mongoose.connect('mongodb+srv://mokshsharma007:mokshbro@cluster0.ivstc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
     useNewUrlParser: true,
