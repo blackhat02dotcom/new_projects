@@ -37,6 +37,8 @@ mongoose.connect('mongodb+srv://mokshsharma007:mokshbro@cluster0.ivstc.mongodb.n
 // User Schema
 const userSchema = new mongoose.Schema({
     username: String,
+
+    // my new project
     password: String
 });
 const User = mongoose.model('User', userSchema);
