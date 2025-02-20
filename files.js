@@ -1,6 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
+
+// mongo db
 const cors = require('cors');  // ✅ Only one instance of this line
 const bodyParser = require('body-parser');
 
